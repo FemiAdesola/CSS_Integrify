@@ -4,25 +4,43 @@ body {
   background-color: white;
 }
 
+.container0{
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
 .container1 {
   background-color: black;
   padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
 }
 
-.container1 :nth-child(1) {
+.container1 div:nth-child(1) {
   background-color: rgb(154, 244, 134);
 }
 
-.container1 :nth-child(2) {
+.container1 div:nth-child(2) {
   background-color: rgb(86, 213, 60);
 }
 
-.container1 :nth-child(3) {
+.container1 div:nth-child(3) {
   background-color: rgb(42, 144, 22);
 }
 
 .container2 {
   background-image: url("avatar.png");
+  background-size: cover;
+  background-repeat: no-repeat;  
+  position: absolute;
   height: 10em;
-  width: 10em;
+  width: 15em;
+  top: -9em;
+  left: 45%;
+  transform: translate(-50%);
 }

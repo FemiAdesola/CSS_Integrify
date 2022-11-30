@@ -1,4 +1,4 @@
-# CSS Assignment
+# CSS Assignment task
 
 Practice Flex and Grid system
 

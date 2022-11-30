@@ -1,9 +1,51 @@
-# CSS Assignment task
+# Introduction
+![](https://img.shields.io/static/v1?label=CSS&message=v.3&color=blue)
 
-Practice Flex and Grid system
+This is an CSS introduction practice @integrify with instructor Alia Trang Nguyen.
 
-## Requirements
+## Table of content
+- [Technologies](#technologies)
+- [Project structure](#project-structure)
+- [Getting started](#getting-started)
 
-1. Complete the styles.css files in each folder to produce the expect result
-2. There is one expected.png file in each folder, which shows the expected layout. Colors and spacing can be different, but layout is supposed to be similar.
-3. All the changes should be made to file .css only. Do not modify index.html
+## Technologies
+- CSS
+    - Flex and Grid system
+
+## Project structure
+```shell
+.
+├── README.md
+├── css-position1
+│   ├── expected.png
+│   ├── index.html
+│   └── styles.css
+├── css-position2
+│   ├── avatar.png
+│   ├── expected.png
+│   ├── index.html
+│   └── styles.css
+├── css-position3
+│   ├── expected.png
+│   ├── index.html
+│   └── styles.css
+├── css-position4
+│   ├── expected.png
+│   ├── index.html
+│   └── styles.css
+└── img
+    ├── Task1.png
+    ├── Task2.png
+    └── Task3.png
+```
+## Getting started
+### Steps taken 
+<ol>
+    <li>The parent (upstream) forked from the repo @integrify GitHub account </li>
+    <li>The repository cloned from @integrify GitHub </li>
+</ol>
+
+## Tasks
+![task1](/img/Task1.png)
+![task2](/img/Task2.png)
+![task3](/img/Task3.png)

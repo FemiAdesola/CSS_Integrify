@@ -1,7 +1,7 @@
 # Introduction
 ![](https://img.shields.io/static/v1?label=CSS&message=v.3&color=blue)
 
-This is an CSS introduction practice @integrify with instructor Alia Trang Nguyen.
+This is a CSS introduction practice @integrify with instructor Alia Trang Nguyen.
 
 ## Table of content
 - [Technologies](#technologies)

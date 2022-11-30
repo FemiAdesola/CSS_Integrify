@@ -8,7 +8,6 @@ body {
 
 .grid{
   display: grid;
-  /* grid-template-columns: repeat(5, 1fr); */
   text-align: center;
   grid-template-areas: 
   "item1 item3 item3 item4 item5"
@@ -17,8 +16,11 @@ body {
   padding: 1em;
   gap: 0.5em;
   height: 10em;
-}
 
+}
+.item{
+  position: relative;
+}
 
 .item:nth-child(1){
   background-color: rgb(156, 24, 200);
@@ -41,18 +43,20 @@ body {
   grid-area: item5;
 }
 
-
-
-.diamond{
+.diamond {
   width: 20px;
   height: 20px;
   background-color: white;
   transform: rotate(-45deg);
   margin-top: 5em;
+  display: inline-block;
 }
-.diamond p{
+
+ .diamond > p{
   transform: rotate(45deg);
+  
 } 
+
 .tooltip{
   display: none;
 }

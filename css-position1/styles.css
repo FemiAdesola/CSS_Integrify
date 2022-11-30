@@ -2,10 +2,39 @@ body {
   background: white;
 }
 
+/* my solution */
 .container {
   background-color: bisque;
-  height: 50vh; /* vh vw em rem */
+  height: 30em; /* vh vw em rem */
   align-items: center;
   display: flex;
   width: 5vw;
 }
+
+
+/* ########## instructor solution 1 ########## */
+/* .container {
+  background-color: bisque;
+  height: 30em; 
+  position: relative;
+  width: 10em;
+}
+
+p{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+} */
+
+/* ########## instructor solution2 ########## */
+/* .container {
+  background-color: bisque;
+  height: 30em; 
+ display: table;
+}
+
+p{
+  display: table-cell;
+  vertical-align: middle;
+} */

@@ -36,7 +36,9 @@ This is a CSS introduction practice @integrify with instructor Alia Trang Nguyen
 └── img
     ├── Task1.png
     ├── Task2.png
-    └── Task3.png
+    ├── Task3.png
+    └── Task4.png
+
 ```
 ## Getting started
 ### Steps taken 
@@ -49,3 +51,4 @@ This is a CSS introduction practice @integrify with instructor Alia Trang Nguyen
 ![task1](/img/Task1.png)
 ![task2](/img/Task2.png)
 ![task3](/img/Task3.png)
+![task4](/img/Task4.png)

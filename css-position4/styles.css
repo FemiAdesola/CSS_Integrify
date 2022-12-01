@@ -20,6 +20,9 @@ body {
 }
 .item{
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item:nth-child(1){
